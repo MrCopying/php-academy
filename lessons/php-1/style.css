@@ -1,0 +1,8 @@
+#content{
+    width: 600px;
+    border: solid 1px lime;
+    padding: 10px;
+}
+.task{
+    font-style: italic;
+}

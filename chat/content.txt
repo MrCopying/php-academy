@@ -1,0 +1,44 @@
+<div class="bl-message">
+                <div class="user-name">
+                    Dgghh f
+                </div>
+                <div class="user-email">
+                    test@tesm.com
+                </div>
+                <div class="user-message">
+                    Куда уходит детство! В какие города!
+                </div>
+            </div>
+<div class="bl-message">
+    <div class="user-name">
+        Mr.Copying
+    </div>
+    <div class="user-email">
+        mr.copiyng@gmail.com
+    </div>
+    <div class="user-message">
+        Куда уходит детство! В какие города!
+    </div>
+</div>
+<div class="bl-message">
+    <div class="user-name">
+        Mr.Copying
+    </div>
+    <div class="user-email">
+        mr.copiyng@gmail.com
+    </div>
+    <div class="user-message">
+        Куда уходит детство! В какие города!
+    </div>
+</div>
+<div class="bl-message">
+    <div class="user-name">
+        Mr.Copying
+    </div>
+    <div class="user-email">
+        mr.copiyng@gmail.com
+    </div>
+    <div class="user-message">
+        Куда уходит детство! В какие города!
+    </div>
+</div>
