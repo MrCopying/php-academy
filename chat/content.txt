@@ -42,3 +42,14 @@
         Куда уходит детство! В какие города!
     </div>
 </div>
+<div class="bl-message">
+    <div class="user-name">
+        Copy A
+    </div>
+    <div class="user-email">
+        mr.copying@ya.ru
+    </div>
+    <div class="user-message">
+        456848484
+    </div>
+</div>
