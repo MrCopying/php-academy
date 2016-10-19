@@ -172,3 +172,66 @@ inst();
 show_inst();
 $res = game_play();
 show_game($res);
+
+/* //для коректной работы на сайте с заданием, не используем массивы и функции.
+$maxX = $W-1; $maxY = $H-1;
+$minX = 0;    $minY = 0;
+$x = $X0;     $y = $Y0;
+
+// game loop
+while (TRUE)
+{
+    fscanf(STDIN, "%s",
+        $bombDir // the direction of the bombs from batman's current location (U, UR, R, DR, D, DL, L or UL)
+    );
+switch($bombDir){
+    case 'U': {
+        $maxY = $y;
+        $y = $y - (int)round(($y - $minY)/2);
+        break;
+    }
+    case 'UR': {
+        $maxY = $y; $minX = $x;
+        $y = $y - (int)round(($y - $minY)/2);
+        $x = $x + (int)round(($maxX - $x)/2);
+        break;
+    }
+    case 'UL':{
+        $maxY = $y; $maxX = $x;
+        $y = $y - (int)round(($y - $minY)/2);
+        $x = $x - (int)round(($x - $minX)/2);
+        break;
+    }
+    case 'D':{
+        $minY = $y;
+        $y = $y + (int)round(($maxY - $y)/2);
+        break;
+    }
+    case 'DR':{
+        $minY = $y; $minX = $x;
+        $y = $y + (int)round(($maxY - $y)/2);
+        $x = $x + (int)round(($maxX - $x)/2);
+        break;
+    }
+    case 'DL':{
+        $minY = $y; $maxX = $x;
+        $y = $y + (int)round(($maxY - $y)/2);
+        $x = $x - (int)round(($x - $minX)/2);
+        break;
+    }
+    case 'L':{
+        $maxX = $x;
+        $x = $x - (int)round(($x - $minX)/2);
+        break;
+    }
+    case 'R':{
+        $minX = $x;
+        $x = $x + (int)round(($maxX - $x)/2);
+        break;
+    }
+}
+
+    // the location of the next window Batman should jump to.
+    echo("$x $y\n");
+}
+*/
